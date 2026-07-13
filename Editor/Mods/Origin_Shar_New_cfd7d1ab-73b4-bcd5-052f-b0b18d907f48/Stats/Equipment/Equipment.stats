@@ -21,6 +21,8 @@
         <field name="13" type="StatReferenceTableFieldDefinition" value="OBJ_Backpack_CampSupplies" />
         <field name="14" type="StatReferenceTableFieldDefinition" value="ARM_Helmet_Shar_A" />
         <field name="15" type="StatReferenceTableFieldDefinition" value="ARM_Gloves_Shar_A" />
+        <field name="16" type="StatReferenceTableFieldDefinition" value="ARM_Underwear_Helper" />
+        <field name="17" type="StatReferenceTableFieldDefinition" value="ARM_Underwear_Shar" />
       </fields>
     </stat_object>
   </stat_objects>

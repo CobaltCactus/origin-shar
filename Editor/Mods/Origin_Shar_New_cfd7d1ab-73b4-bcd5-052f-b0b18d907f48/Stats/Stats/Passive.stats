@@ -64,7 +64,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="4063595c-228f-4135-bc06-c00825d0811f" />
         <field name="Name" type="NameTableFieldDefinition" value="SharDarkness" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6fce1cagcceag955bg8a56gec06556ee74f" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6fce1cagcceag955bg8a56gec06556ee74f" version="3" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SharDarkness);" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ed5551agf9a5g49d9gfe7dg4834bb3c69e0" version="1" />
       </fields>
@@ -103,6 +103,16 @@
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h46a208d7g89a7gc9eagdae3g215c75f5445c" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h957bb997g6b6fg6154g6852ge8fe9c461023" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_MAG_SharArmor_ShieldOfFaith);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b59859c1-0331-4507-9302-246540da88a7" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharImmunity" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd0f8e9d3gb46bg75d0g0fceg20f1d0cbb4e9" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h1f80560dgc11agaf2cg84a2g42d7d1df9ef0" version="2" />
+        <field name="Icon" type="StringTableFieldDefinition" value="statIcons_Moonshield" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Tag(ACT2_SHADOW_CURSE_IMMUNE);" />
       </fields>
     </stat_object>
   </stat_objects>

@@ -30,4 +30,8 @@ add equipmentgroup
 add equipment entry "ARM_Helmet_Shar_A"
 add equipmentgroup
 add equipment entry "ARM_Gloves_Shar_A"
+add equipmentgroup
+add equipment entry "ARM_Underwear_Helper"
+add equipmentgroup
+add equipment entry "ARM_Underwear_Shar"
 

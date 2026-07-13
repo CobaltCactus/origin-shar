@@ -67,5 +67,13 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7aa02577-697d-4de6-8b08-e2e7f8dad2dd" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ed8eecb6-4c13-414b-87a0-c675e725cab4" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Underwear_Shar" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="de4406bb-b8cd-4b76-a213-8125072fd378" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="ce80a4dd-413f-4965-8ec2-b5eb1f87e545" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

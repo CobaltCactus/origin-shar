@@ -12,7 +12,7 @@
                     <attribute id="BodyType" type="uint8" value="1"/>
                     <attribute id="ClassEquipmentOverride" type="FixedString" value="EQ_Shar"/>
                     <attribute id="ClassUUID" type="guid" value="114e7aee-d1d4-4371-8d90-8a2080592faf"/>
-                    <attribute id="Description" type="TranslatedString" handle="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="2"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="hccbe7d0age0ffgae92ge071g9300ba0b228e" version="1"/>
                     <attribute id="GlobalTemplate" type="guid" value="63107013-bb91-406d-a2f3-e60fa781541e"/>
                     <attribute id="GodUUID" type="guid" value="2eb3557f-7ada-41d6-a892-e02def72ef77"/>
@@ -20,7 +20,7 @@
                     <attribute id="LockClass" type="bool" value="false"/>
                     <attribute id="LockRace" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Shar"/>
-                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief;SharUmbralForm;SharSleepSharDarkness"/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief;SharUmbralForm;SharSleep;SharDarkness;SharImmunity"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="SubClassUUID" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
                     <attribute id="UUID" type="guid" value="3b0e44b6-e789-48a0-a05e-602cd576383d"/>

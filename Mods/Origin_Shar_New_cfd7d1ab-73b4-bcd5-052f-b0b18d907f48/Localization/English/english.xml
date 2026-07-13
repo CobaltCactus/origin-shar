@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <content contentuid="ha3775bf0ge419g2b61gd229gd95d06b3a4dd" version="2">Shar</content>
+  <content contentuid="ha3775bf0ge419g2b61gd229gd95d06b3a4dd" version="3">Shar</content>
   <content contentuid="h8e71bd74ga441g0aa8g25e7g5e270526ea4c" version="1">Shar's Voice</content>
   <content contentuid="hccbe7d0age0ffgae92ge071g9300ba0b228e" version="1">Shar</content>
-  <content contentuid="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="1">Evil Goddess Description!!!</content>
+  <content contentuid="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="2">"I am nothing. I am the empty room. The dreamless sleep. The shadow's shadow. There was no pain before my sister set the sun aflame. Now you exist to suffer until you find your way back to my embrace." - Shar</content>
   <content contentuid="h49e26db3g85ccgf795g05e7gac5435585df5" version="2">Shadow Sight</content>
   <content contentuid="hf51010c8g8d40g2a5egc593gec77af498cb9" version="3">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="hd59a9f61g520eg92e7g5d5bg80710559817f" version="3">Adumbral Affinity</content>
@@ -37,7 +37,7 @@
   <content contentuid="hfcfd7f84gc721g8b8bg046eg88609a03cb7f" version="1">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="3">Adumbral Affinity</content>
   <content contentuid="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1">You have an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while in darkness or dim light.</content>
-  <content contentuid="hc6fce1cagcceag955bg8a56gec06556ee74f" version="2">Gathered Shadow</content>
+  <content contentuid="hc6fce1cagcceag955bg8a56gec06556ee74f" version="3">Gather Shadows</content>
   <content contentuid="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="3">Gather Shadows</content>
   <content contentuid="h72373631gf6fdg2000gd367g4b141e11e78e" version="1">Create a dark shroud that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; creatures within. Creatures cannot make ranged attacks into or out of it.</content>
   <content contentuid="h32b4ed38gd9b7g1c17ge5e8g909c9ae6460c" version="1">Overwhelming Grief</content>
@@ -65,4 +65,7 @@
   <content contentuid="hfeb36ae7g7fc1g8661g5c71gc9227ea4db43" version="1">Shar assumes her &lt;LSTag Type="Status" Tooltip="SHA_SHAR_UMBRAL_FORM"&gt;Umbral Form&lt;/LSTag&gt;.</content>
   <content contentuid="hd96fed72g2575g428dgcaf2gcca411c00f93" version="1">Nightsinger's Lullaby</content>
   <content contentuid="h772b07afg06adgbe40ga1d6g09e6bb94486d" version="1">Put creatures into a magical slumber. Select targets up to a combined 36HP.</content>
+  <content contentuid="hd0f8e9d3gb46bg75d0g0fceg20f1d0cbb4e9" version="1">One with the Shadows</content>
+  <content contentuid="h1f80560dgc11agaf2cg84a2g42d7d1df9ef0" version="2">The Shadow-based curse declared in Your name doesn't affect you.</content>
+  <content contentuid="hecd3abf7g0deage2f8g8146g11052a1c1719" version="3">Shar's Unmentionables</content>
 </contentList>

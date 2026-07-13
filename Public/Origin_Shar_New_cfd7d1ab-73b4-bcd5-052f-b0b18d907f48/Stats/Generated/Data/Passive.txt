@@ -44,7 +44,7 @@ data "StatsFunctors" "IF(context.HasContextFlag(StatsFunctorContext.OnDamaged) a
 
 new entry "SharDarkness"
 type "PassiveData"
-data "DisplayName" "hc6fce1cagcceag955bg8a56gec06556ee74f;2"
+data "DisplayName" "hc6fce1cagcceag955bg8a56gec06556ee74f;3"
 data "Description" "h2ed5551agf9a5g49d9gfe7dg4834bb3c69e0;1"
 data "Boosts" "UnlockSpell(Target_SharDarkness);"
 
@@ -71,4 +71,11 @@ type "PassiveData"
 data "DisplayName" "h46a208d7g89a7gc9eagdae3g215c75f5445c;1"
 data "Description" "h957bb997g6b6fg6154g6852ge8fe9c461023;1"
 data "Boosts" "UnlockSpell(Shout_MAG_SharArmor_ShieldOfFaith);"
+
+new entry "SharImmunity"
+type "PassiveData"
+data "DisplayName" "hd0f8e9d3gb46bg75d0g0fceg20f1d0cbb4e9;1"
+data "Description" "h1f80560dgc11agaf2cg84a2g42d7d1df9ef0;2"
+data "Icon" "statIcons_Moonshield"
+data "Boosts" "Tag(ACT2_SHADOW_CURSE_IMMUNE);"
 

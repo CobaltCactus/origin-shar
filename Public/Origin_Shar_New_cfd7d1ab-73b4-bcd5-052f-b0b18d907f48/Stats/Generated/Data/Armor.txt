@@ -46,3 +46,8 @@ type "Armor"
 using "ARM_Camp_Shoes"
 data "RootTemplate" "7aa02577-697d-4de6-8b08-e2e7f8dad2dd"
 
+new entry "ARM_Underwear_Shar"
+type "Armor"
+using "ARM_Underwear_Shadowheart"
+data "RootTemplate" "ce80a4dd-413f-4965-8ec2-b5eb1f87e545"
+
