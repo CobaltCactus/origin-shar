@@ -78,3 +78,16 @@ data "SpellFlags" "IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThresh
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "71859b27-bdda-44c3-8c65-7f142a1a2f60"
 
+new entry "Target_SharSleep"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Sleep"
+data "Cooldown" "OncePerTurn"
+data "TargetConditions" "not HasHPMoreThan(36) and not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');"
+data "DisplayName" "hd96fed72g2575g428dgcaf2gcca411c00f93;1"
+data "DescriptionParams" "RegainHitPoints(36)"
+data "UseCosts" "ActionPoint:1"
+data "VerbalIntent" "Debuff"
+data "RechargeValues" "4-6"
+data "MemoryCost" ""
+

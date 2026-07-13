@@ -20,7 +20,7 @@
                     <attribute id="LockClass" type="bool" value="false"/>
                     <attribute id="LockRace" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Shar"/>
-                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief;SharUmbralForm;SharSleep"/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief;SharUmbralForm;SharSleepSharDarkness;"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="SubClassUUID" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
                     <attribute id="UUID" type="guid" value="3b0e44b6-e789-48a0-a05e-602cd576383d"/>

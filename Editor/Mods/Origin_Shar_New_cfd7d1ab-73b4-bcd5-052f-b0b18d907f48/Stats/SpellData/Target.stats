@@ -87,5 +87,20 @@
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="71859b27-bdda-44c3-8c65-7f142a1a2f60" />
       </fields>
     </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="b12eea81-a2e9-4d13-9a01-a75ca0c7d78f" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharSleep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="7c87100c-1e7d-47cd-87f3-e91d937e5ed5" />
+        <field name="VerbalIntent" type="EnumerationTableFieldDefinition" value="Debuff" enumeration_type_name="VerbalIntent" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellPrepareCost" type="IntegerTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RechargeValues" type="StringTableFieldDefinition" value="4-6" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="not HasHPMoreThan(36) and not HasStatus('SG_Unconscious') and not Dead() and Character() and not Ally() and not Tagged('UNDEAD') and not (not Player(context.Source) and IsCrowdControlled(context.Target)) and not IsImmuneToStatus('SLEEP');" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hd96fed72g2575g428dgcaf2gcca411c00f93" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="RegainHitPoints(36)" />
+      </fields>
+    </stat_object>
   </stat_objects>
 </stats>

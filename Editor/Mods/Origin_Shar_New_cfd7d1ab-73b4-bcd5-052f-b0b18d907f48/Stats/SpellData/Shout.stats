@@ -9,7 +9,7 @@
         <field name="Level" type="IntegerTableFieldDefinition" value="1" />
         <field name="SpellSchool" type="EnumerationTableFieldDefinition" value="Abjuration" enumeration_type_name="SpellSchool" version="1" />
         <field name="AIFlags" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="AIFlags" version="1" />
-        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHIELD_OF_FAITH_SHAR,100,-1);ApplyStatus(SHAR_SHIELD_OF_FAITH_OWNER, 100, -1);" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="ApplyStatus(SHIELD_OF_FAITH_SHAR,100,-1);ApplyStatus(SHAR_SHIELD_OF_FAITH_OWNER, 100, -1);ApplyStatus(SHAR_SHIELD_OF_FAITH_TECHNICAL, 100, -1);" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Abjuration_ShieldOfFaith" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h84d105abg9f40g43dag4cd2g7dc961fc7c25" version="1" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3cb756d9g6fbbge6ffg7202gadbc522ac703" version="2" />

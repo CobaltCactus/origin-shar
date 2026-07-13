@@ -24,7 +24,7 @@
         <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
         <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="SharDarkness;" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ShadowST;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -35,9 +35,8 @@
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2f12427c-2c37-4f5c-bd60-6e664b26efc8" />
         <field name="ArmorClass" type="IntegerTableFieldDefinition" value="16" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Constitution);UnlockSpell(Shout_MAG_SharArmor_ShieldOfFaith)" />
-        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ShadowStealth;ShadowVeil;ShadowST;" />
-        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_TECHNICAL" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Constitution);" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ShadowStealth;ShadowVeil;" />
         <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
       </fields>
     </stat_object>

@@ -7,7 +7,7 @@
   <content contentuid="h49e26db3g85ccgf795g05e7gac5435585df5" version="2">Shadow Sight</content>
   <content contentuid="hf51010c8g8d40g2a5egc593gec77af498cb9" version="3">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="hd59a9f61g520eg92e7g5d5bg80710559817f" version="3">Adumbral Affinity</content>
-  <content contentuid="hebb872e3g62feg88a7g54cfgd6fa033b1ed9" version="3">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while Lightly or Heavily Obscured. This weapon deals an additional [1] to creatures that are Lightly or Heavily Obscured.</content>
+  <content contentuid="hebb872e3g62feg88a7g54cfgd6fa033b1ed9" version="4">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while Lightly or Heavily Obscured. Your weapons deal an additional [1] to creatures that are Lightly or Heavily Obscured.</content>
   <content contentuid="h756a36ddgd8cag41fbg5b66g86ad7978ce26" version="3">Shadow's Embrace</content>
   <content contentuid="hfc59190bg7203g5c77g2ed8g128e588c08cd" version="3">Veil of Shadows also grants you a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
   <content contentuid="hb80ecfe0g980dg21d2g5d65gaf1a12effec2" version="3">Umbral Stealth</content>
@@ -58,5 +58,11 @@
   <content contentuid="hbc7be8ccg3273gd6fbgd26bg5ff5257fe70f" version="1">Umbral Form</content>
   <content contentuid="h81286423g914fg0b6ag7805g5059119edc1d" version="1">Shadow Teleportation</content>
   <content contentuid="hd8b5ffcfg9779g834dg92b5g819b65d176b0" version="1">Teleport to an unoccupied, obscured spot.</content>
-  <content contentuid="h701c8855g464egb547g6fa9g53245d8aaa06" version="1">Sleep</content>
+  <content contentuid="h701c8855g464egb547g6fa9g53245d8aaa06" version="2">Nightsinger's Lullaby</content>
+  <content contentuid="h46a208d7g89a7gc9eagdae3g215c75f5445c" version="1">Veil of Shadows</content>
+  <content contentuid="h957bb997g6b6fg6154g6852ge8fe9c461023" version="1">Encase yourself with shadow, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
+  <content contentuid="h66fc88a5g6b47gb4d1g00bbgaa4966319a6f" version="1">You strike at their foe's brain with pure malice, inflicting &lt;LSTag Type="Status" Tooltip="SHA_JUSTICIAR_CALLOFTHEDARK"&gt;Call of the Dark Lady&lt;/LSTag&gt;.</content>
+  <content contentuid="hfeb36ae7g7fc1g8661g5c71gc9227ea4db43" version="1">Shar assumes her &lt;LSTag Type="Status" Tooltip="SHA_SHAR_UMBRAL_FORM"&gt;Umbral Form&lt;/LSTag&gt;.</content>
+  <content contentuid="hd96fed72g2575g428dgcaf2gcca411c00f93" version="1">Nightsinger's Lullaby</content>
+  <content contentuid="h772b07afg06adgbe40ga1d6g09e6bb94486d" version="1">Put creatures into a magical slumber. Select targets up to a combined 36HP.</content>
 </contentList>
