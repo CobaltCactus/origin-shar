@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e2a8d59b-0e34-4a7c-bf5f-db7a2bb34cde">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e747f005-a6b0-4751-83bc-7a384fb628fb" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHAR_ROBE_SHAR_RESISTANCE" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="acf350b5-9900-460c-9dfd-4c001cca8e24" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h56a4409agd564gb158gedf0gefdba7c9b40e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hebe3551fg2ab0gc8d2g1b25g03a7164512b5" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAG_SHAR_ROBE_SHAR_RESISTANCE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 2)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="efcd82f7-7ff9-4ec9-9afe-1cb16d28b600" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_OWNER" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="4aa32263-aa4a-4e44-ad21-8ed1afec2d91" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_OWNER" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha6b1d1a0g5ff5gc374g72d1g13ad69ed57ba" version="1" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('SHIELD_OF_FAITH')):ApplyStatus(MAG_SHAR_ARMOR_SHAR_PROTECTION, 100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="bb6d9033-d028-485f-a3d1-428f78097907" />
+        <field name="Name" type="NameTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_TECHNICAL" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h3f84895cga72egb24agbbc1ge9feecd3cbe7" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_TECHNICAL" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="OnRemoveFunctors" type="FunctorsTableFieldDefinition" value="IF(IsConcentrating() and HasStatus('DARK_JUSTICIAR_SHIELD_OF_FAITH_OWNER')):BreakConcentration();RemoveStatus(DARK_JUSTICIAR_SHIELD_OF_FAITH_OWNER);RemoveStatus(MAG_DARK_JUSTICIAR_ARMOR_SHAR_PROTECTION)" />
+        <field name="OnApplyFunctors" type="FunctorsTableFieldDefinition" value="IF(HasStatus('SHIELD_OF_FAITH')):ApplyStatus(MAG_SHAR_ARMOR_SHAR_PROTECTION, 100, -1)" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a2210863-8faf-4574-b4b6-5d73ae0c3bb9" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHAR_ARMOR_SHAR_PROTECTION" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hf46f9e94g9902g3542gff5cge627df289d42" version="2" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hf2c670c5g76bfg2c82g43e8gaad83e13d033" version="1" />
+        <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(1d4, Necrotic)" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAG_DARK_JUSTICIAR_ARMOR_SHAR_PROTECTION" />
+        <field name="StackType" type="EnumerationTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusStackType" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="DamageReduction(All, Flat, 2)" />
+        <field name="Passives" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RemoveConditions" type="RollConditionsTableFieldDefinition" value="StatusId('SHIELD_OF_FAITH')" />
+        <field name="RemoveEvents" type="EnumerationListTableFieldDefinition" value="OnStatusRemoved" enumeration_type_name="StatusEvent" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_DamageType_Physical" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="2d743f35-f8bb-4889-9f32-271db5b5f383" />
+        <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SHAR_SAVING_THROW_ADVANTAGE" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1" />
+        <field name="StackId" type="StringTableFieldDefinition" value="MAG_SHA_SHAR_BLESSING_SAVING_THROW_ADVANTAGE" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Dexterity)" />
+        <field name="StatusPropertyFlags" type="EnumerationListTableFieldDefinition" value="DisableCombatlog;IgnoreResting;DisablePortraitIndicator" enumeration_type_name="StatusPropertyFlags" version="1" />
+        <field name="Icon" type="StringTableFieldDefinition" value="GenericIcon_Intent_Buff" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

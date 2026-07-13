@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="ha3775bf0ge419g2b61gd229gd95d06b3a4dd" version="2">Shar</content>
+  <content contentuid="h8e71bd74ga441g0aa8g25e7g5e270526ea4c" version="1">Shar's Voice</content>
+  <content contentuid="hccbe7d0age0ffgae92ge071g9300ba0b228e" version="1">Shar</content>
+  <content contentuid="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="1">Evil Goddess Description!!!</content>
+  <content contentuid="h49e26db3g85ccgf795g05e7gac5435585df5" version="2">Shadow Sight</content>
+  <content contentuid="hf51010c8g8d40g2a5egc593gec77af498cb9" version="3">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="hd59a9f61g520eg92e7g5d5bg80710559817f" version="3">Adumbral Affinity</content>
+  <content contentuid="hebb872e3g62feg88a7g54cfgd6fa033b1ed9" version="3">You gain &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while Lightly or Heavily Obscured. This weapon deals an additional [1] to creatures that are Lightly or Heavily Obscured.</content>
+  <content contentuid="h756a36ddgd8cag41fbg5b66g86ad7978ce26" version="3">Shadow's Embrace</content>
+  <content contentuid="hfc59190bg7203g5c77g2ed8g128e588c08cd" version="3">Veil of Shadows also grants you a +[1] bonus to all &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt;.</content>
+  <content contentuid="hb80ecfe0g980dg21d2g5d65gaf1a12effec2" version="3">Umbral Stealth</content>
+  <content contentuid="hcd5ee2bbg820cga407gccd9g33d45525e767" version="2">While obscured, the wearer has &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on Stealth &lt;LSTag Tooltip="AbilityCheck"&gt;Checks&lt;/LSTag&gt;.</content>
+  <content contentuid="hb7f3008dge9beg43d9g9478g9dc1ae58b704" version="2">Shar's Boots</content>
+  <content contentuid="h1498dc06g3781gaa17gcb92g680c16a5bd80" version="2">These shoes seem to cast their own unnatural shadows. (Currently only visible on normal BT1)</content>
+  <content contentuid="hdd2a2ceag2046g52cag7341g771136c0a149" version="1">Nightsinger's Accoutrements</content>
+  <content contentuid="hdabbe133ge8bcg087dge608g1b4d0353f678" version="1">Currently only visible on normal BT1.</content>
+  <content contentuid="hffacebc9g8ef9gb72fg00e6gb3eb4774fd8c" version="1">Nightsinger's Slippers</content>
+  <content contentuid="h8ac1cdedge6d0g29f0g54fega7bcb54bfbda" version="1">Currently only visible on normal BT1.</content>
+  <content contentuid="h5c3e2acdg4a35g48c9gdc19g505387ee236a" version="1">Shar's Gloves</content>
+  <content contentuid="h93256c13gb3b3g0047g0cbfg63e39cf0480a" version="1">These metal bracers are strangely pliable, almost as if they're cloth. (Currently only visible on normal BT1)</content>
+  <content contentuid="hfa7d4fcbg636bgc248g84d0gfb7c8a1d5b8f" version="1">Shar's Headdress</content>
+  <content contentuid="h7ae091c8g6343g8ec0g4706gb194e9390ab2" version="1">Divinely wrought, this helmet exudes otherworldly power. (Currently only visible on normal BT1)</content>
+  <content contentuid="h6798f321g43b6g3140g2be9g579934441f21" version="1">Shar's Robe</content>
+  <content contentuid="h18e4b3d1ge2bdgfa1fg5131g810a324428ab" version="1">This revealing dress is much more protective than it should be. (Currently only visible on normal BT1)</content>
+  <content contentuid="h56a4409agd564gb158gedf0gefdba7c9b40e" version="1">Veil of Shadows</content>
+  <content contentuid="hebe3551fg2ab0gc8d2g1b25g03a7164512b5" version="1">&lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; also grants a +[1] bonus to all Saving Throws.</content>
+  <content contentuid="h84d105abg9f40g43dag4cd2g7dc961fc7c25" version="1">Veil of Shadows</content>
+  <content contentuid="h3cb756d9g6fbbge6ffg7202gadbc522ac703" version="2">Encase yourself with shadow, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
+  <content contentuid="h3f84895cga72egb24agbbc1ge9feecd3cbe7" version="1">%%% Shar - Shield of Faith</content>
+  <content contentuid="ha6b1d1a0g5ff5gc374g72d1g13ad69ed57ba" version="1">%%% Shar- Shield of Faith</content>
+  <content contentuid="h21642043g725dg2a24gf4afg5fb9621b4c74" version="2">Shadow Retribution</content>
+  <content contentuid="h3a6b247fgf8ffg2ce3g3541gacb003426b68" version="2">While Veil of Shadows is active, reduce all incoming damage by [1] and reflect damage received back at the attacker, who takes [2].</content>
+  <content contentuid="hf46f9e94g9902g3542gff5cge627df289d42" version="2">Umbral Retribution</content>
+  <content contentuid="hf2c670c5g76bfg2c82g43e8gaad83e13d033" version="1">&lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; reduces all damage by [1] and deals [2] back at the attacker.</content>
+  <content contentuid="hfcfd7f84gc721g8b8bg046eg88609a03cb7f" version="1">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
+  <content contentuid="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="1">Barrier of Darkness</content>
+  <content contentuid="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1">You have an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while in darkness or dim light.</content>
+  <content contentuid="hc6fce1cagcceag955bg8a56gec06556ee74f" version="2">Gathered Shadow</content>
+  <content contentuid="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="2">Gathered Shadow</content>
+  <content contentuid="h72373631gf6fdg2000gd367g4b141e11e78e" version="1">Create a dark shroud that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; creatures within. Creatures cannot make ranged attacks into or out of it.</content>
+  <content contentuid="h32b4ed38gd9b7g1c17ge5e8g909c9ae6460c" version="1">Overwhelming Grief</content>
+  <content contentuid="hb14b8fb3g9a9dgd395gf2f0gc68c2acf7481" version="1">Overwhelming Grief</content>
+  <content contentuid="h6ff91284g5ebcgb58ag1a4bga84ed168c88c" version="1">You strike at their foe's brain with pure malice, inflicting &lt;LSTag Type="Status" Tooltip="SHA_JUSTICIAR_CALLOFTHEDARK"&gt;Call of the Dark Lady&lt;/LSTag&gt;.</content>
+  <content contentuid="h101a28fdg030fg34c8g0740gef77b22257b7" version="1">The most common face in Faerûn, humans are known for their tenacity, creativity, and endless capacity for growth.</content>
+  <content contentuid="h36a5f501g166bg91c3g5facg57c6028480c4" version="1">Human</content>
+</contentList>

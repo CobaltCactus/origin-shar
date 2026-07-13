@@ -1,0 +1,33 @@
+new equipment "EQ_Shar"
+add initialweaponset "Melee"
+add equipmentgroup
+add equipment entry "WPN_ShadowBlade"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+add equipmentgroup
+add equipment entry "WPN_ShadowBlade"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "OBJ_Potion_Healing"
+add equipmentgroup
+add equipment entry "ARM_Boots_Shar_A"
+add equipmentgroup
+add equipment entry "ARM_Robe_Shar_A"
+add equipmentgroup
+add equipment entry "OBJ_Scroll_Revivify"
+add equipmentgroup
+add equipment entry "OBJ_Keychain"
+add equipmentgroup
+add equipment entry "OBJ_Bag_AlchemyPouch"
+add equipmentgroup
+add equipment entry "ARM_Camp_Body_Shar_A"
+add equipmentgroup
+add equipment entry "ARM_Camp_Shoes_Shar_A"
+add equipmentgroup
+add equipment entry "OBJ_Backpack_CampSupplies"
+add equipmentgroup
+add equipment entry "ARM_Helmet_Shar_A"
+add equipmentgroup
+add equipment entry "ARM_Gloves_Shar_A"
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="b923d561-af5a-47d5-b34a-f4c4fb8c4dcc">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="3b0e44b6-e789-48a0-a05e-602cd576383d" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Shar" />
+        <field name="Unique" type="BoolTableFieldDefinition" value="True" />
+        <field name="AvailableInCharacterCreation" type="EnumerationTableFieldDefinition" value="Available" enumeration_type_name="CharacterCreatorAvailabilityType" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hccbe7d0age0ffgae92ge071g9300ba0b228e" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h451b02ebgeb0agd94dg976bgdabe901f68fd" version="1" />
+        <field name="BodyType" type="EnumerationTableFieldDefinition" value="Female" enumeration_type_name="BodyType" version="1" />
+        <field name="BodyShape" type="EnumerationTableFieldDefinition" value="Standard" enumeration_type_name="BodyShape" version="1" />
+        <field name="LockBody" type="BoolTableFieldDefinition" value="True" />
+        <field name="RaceUUID" type="GuidTableFieldDefinition" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba" />
+        <field name="LockRace" type="BoolTableFieldDefinition" value="True" />
+        <field name="BackgroundUUID" type="GuidTableFieldDefinition" value="76925f0b-3ec8-4f42-86a9-cd4f745af2ac" />
+        <field name="GodUUID" type="GuidTableFieldDefinition" value="2eb3557f-7ada-41d6-a892-e02def72ef77" />
+        <field name="ClassUUID" type="GuidTableFieldDefinition" value="114e7aee-d1d4-4371-8d90-8a2080592faf" />
+        <field name="SubClassUUID" type="GuidTableFieldDefinition" value="f013d01b-3310-43f7-81bf-a51130442b5e" />
+        <field name="LockClass" type="BoolTableFieldDefinition" value="False" />
+        <field name="GlobalTemplate" type="GuidTableFieldDefinition" value="63107013-bb91-406d-a2f3-e60fa781541e" />
+        <field name="Passives" type="StringTableFieldDefinition" value="DeathSavingThrows;SharGrief" />
+        <field name="AppearanceTags" type="GuidObjectListTableFieldDefinition" value="486e4a27-e6f9-40a5-9dd1-108a1d0f60eb;0d1d64b8-70d6-4702-8643-be348b0f3fc6" />
+        <field name="ReallyTags" type="GuidObjectListTableFieldDefinition" value="8e288154-e7ca-4277-b2df-e61639b1cce8" />
+        <field name="AppearanceLocked" type="BoolTableFieldDefinition" value="True" />
+        <field name="VoiceTableUUID" type="GuidTableFieldDefinition" value="6b8ac510-55e0-4f46-8f5c-8ae151b573e4" />
+        <field name="ClassEquipmentOverride" type="FixedStringTableFieldDefinition" value="EQ_Shar" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

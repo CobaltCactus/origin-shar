@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="239de60a-29b5-4010-bf7d-f6169d4ddd8a">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="ff7c793c-f94e-457d-bd49-4b0d04eae1d1" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Gloves_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="9595f6a0-f229-4869-ad3c-1ec7763733da" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="b971f07b-3bd1-4f0c-9f69-71a4ebe271b1" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Strength);UnlockSpell(Target_MAG_BeckoningDarkness)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_DarkJusticiarGloves_Passive" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="610ca7b3-a3c0-4e19-ab95-f322a4adc55e" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Helmet_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="d9537167-87b5-44df-8c0b-22f82d8f2040" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="a0d17c4d-5346-443f-b71e-99588951f65f" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Constitution);" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+        <field name="Proficiency Group" type="EnumerationListTableFieldDefinition" value="LightArmor" enumeration_type_name="ProficiencyGroupFlags" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="SharDarkness;" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="1786bd49-9962-4e8b-ab4f-bd3108857a30" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Robe_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="77026e76-47c8-4ca7-b066-eff688e825d1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="2f12427c-2c37-4f5c-bd60-6e664b26efc8" />
+        <field name="ArmorClass" type="IntegerTableFieldDefinition" value="16" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Constitution);UnlockSpell(Shout_MAG_SharArmor_ShieldOfFaith)" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="ShadowStealth;ShadowVeil;ShadowST;" />
+        <field name="StatusOnEquip" type="StringTableFieldDefinition" value="SHAR_SHIELD_OF_FAITH_TECHNICAL" />
+        <field name="Unique" type="IntegerTableFieldDefinition" value="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="86b44658-4db1-4e27-9b07-0ef79939596c" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Boots_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="c6d249ce-32d3-4c33-941c-298d686bb1f1" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="407b87bf-dddf-4f52-a76b-6328aa67d4d4" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Dexterity);UnlockSpell(Target_MAG_Shadow_Shadowstep)" />
+        <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="6e0289a5-843d-4d72-ab3e-bb4cca01c3e5" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Camp_Body_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="03abca91-c190-4cd6-b8de-d1263a24f13a" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="f8b07603-81e2-45bb-99a3-6b4dc4af47b9" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="44cb8089-6dc5-47ef-aefd-dfe81ed733f6" />
+        <field name="Name" type="NameTableFieldDefinition" value="ARM_Camp_Shoes_Shar_A" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="1c81865e-6b61-4f25-b5c2-312ee3611037" />
+        <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="7aa02577-697d-4de6-8b08-e2e7f8dad2dd" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>
