@@ -9,7 +9,7 @@
         <field name="TargetRadius" type="StringTableFieldDefinition" value="18" />
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="5" />
         <field name="Icon" type="StringTableFieldDefinition" value="Spell_Evocation_Darkness" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h72373631gf6fdg2000gd367g4b141e11e78e" version="1" />
         <field name="CastTextEvent" type="StringTableFieldDefinition" value="Cast" />
         <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />

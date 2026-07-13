@@ -91,7 +91,7 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="2d743f35-f8bb-4889-9f32-271db5b5f383" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_SHA_SHAR_SAVING_THROW_ADVANTAGE" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="1" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1" />
         <field name="StackId" type="StringTableFieldDefinition" value="MAG_SHA_SHAR_BLESSING_SAVING_THROW_ADVANTAGE" />
         <field name="Boosts" type="StringTableFieldDefinition" value="Advantage(SavingThrow, Dexterity)" />

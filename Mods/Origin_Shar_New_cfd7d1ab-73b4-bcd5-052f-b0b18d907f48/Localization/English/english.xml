@@ -22,8 +22,8 @@
   <content contentuid="h93256c13gb3b3g0047g0cbfg63e39cf0480a" version="1">These metal bracers are strangely pliable, almost as if they're cloth. (Currently only visible on normal BT1)</content>
   <content contentuid="hfa7d4fcbg636bgc248g84d0gfb7c8a1d5b8f" version="1">Shar's Headdress</content>
   <content contentuid="h7ae091c8g6343g8ec0g4706gb194e9390ab2" version="1">Divinely wrought, this helmet exudes otherworldly power. (Currently only visible on normal BT1)</content>
-  <content contentuid="h6798f321g43b6g3140g2be9g579934441f21" version="1">Shar's Robe</content>
-  <content contentuid="h18e4b3d1ge2bdgfa1fg5131g810a324428ab" version="1">This revealing dress is much more protective than it should be. (Currently only visible on normal BT1)</content>
+  <content contentuid="h6798f321g43b6g3140g2be9g579934441f21" version="2">Shar's Robe</content>
+  <content contentuid="h18e4b3d1ge2bdgfa1fg5131g810a324428ab" version="2">This revealing dress is much more protective than it should be. (Currently only visible on normal BT1)</content>
   <content contentuid="h56a4409agd564gb158gedf0gefdba7c9b40e" version="2">Shadow's Embrace</content>
   <content contentuid="hebe3551fg2ab0gc8d2g1b25g03a7164512b5" version="2">Veil of Shadows also grants a +[1] bonus to all Saving Throws.</content>
   <content contentuid="h84d105abg9f40g43dag4cd2g7dc961fc7c25" version="1">Veil of Shadows</content>
@@ -35,10 +35,10 @@
   <content contentuid="hf46f9e94g9902g3542gff5cge627df289d42" version="2">Umbral Retribution</content>
   <content contentuid="hf2c670c5g76bfg2c82g43e8gaad83e13d033" version="2">Veil of Shadows reduces all damage by [1] and deals [2] back at the attacker.</content>
   <content contentuid="hfcfd7f84gc721g8b8bg046eg88609a03cb7f" version="1">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
-  <content contentuid="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="1">Barrier of Darkness</content>
+  <content contentuid="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="3">Adumbral Affinity</content>
   <content contentuid="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1">You have an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while in darkness or dim light.</content>
   <content contentuid="hc6fce1cagcceag955bg8a56gec06556ee74f" version="2">Gathered Shadow</content>
-  <content contentuid="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="2">Gathered Shadow</content>
+  <content contentuid="ha8cbf0cagc4a6gc3ceg9882ga170f3a911fe" version="3">Gather Shadows</content>
   <content contentuid="h72373631gf6fdg2000gd367g4b141e11e78e" version="1">Create a dark shroud that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; creatures within. Creatures cannot make ranged attacks into or out of it.</content>
   <content contentuid="h32b4ed38gd9b7g1c17ge5e8g909c9ae6460c" version="1">Overwhelming Grief</content>
   <content contentuid="hb14b8fb3g9a9dgd395gf2f0gc68c2acf7481" version="1">Overwhelming Grief</content>
