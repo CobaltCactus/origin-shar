@@ -42,7 +42,7 @@
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="DealDamage(1d8, Necrotic);DealDamage(1d4,Necrotic);DealDamage(1d6,Necrotic)" />
         <field name="TooltipDamageList" type="StringTableFieldDefinition" value="DealDamage(1d8,Necrotic)" />
         <field name="TooltipAttackSave" type="StringTableFieldDefinition" value="Constitution" />
-        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHA_JUSTICIAR_CALLOFTHEDARK,100,10)" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" value="ApplyStatus(SHA_SHAR_CALLOFTHEDARK,100,10)" />
         <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="7d25c45a-4bc3-49ab-9a3c-d4bab9368960,,;e871ec44-aad0-4762-b237-605a142f4484,,;89c1c14c-d50d-48e4-acb5-e441801617af,,;241c2f28-6e6e-4f64-8510-2d798bd8412e,,;95a8a7dc-80c9-43e9-b2d9-f916c609bf54,,;16a86482-3570-4745-9239-c5035b1c2da8,,;,,;,,;,," />
         <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="c8b453bf-57c1-4783-b9ec-18269bc947e5" />
         <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="a8c7406f-5dd7-43d6-a19e-c370805f3ff0" />
@@ -55,7 +55,7 @@
         <field name="AreaRadius" type="IntegerTableFieldDefinition" value="4" />
         <field name="DeathType" type="EnumerationTableFieldDefinition" value="Necrotic" enumeration_type_name="Death Type" version="1" />
         <field name="SpellRoll" type="StringTableFieldDefinition" value="not SavingThrow(Ability.Constitution, 14)" />
-        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SHA_JUSTICIAR_CALLOFTHEDARK,100,10);DealDamage(1d8,Necrotic,Magical)" />
+        <field name="SpellSuccess" type="StringTableFieldDefinition" value="ApplyStatus(SHA_SHAR_CALLOFTHEDARK,100,10);DealDamage(1d8,Necrotic,Magical);" />
         <field name="SpellFail" type="StringTableFieldDefinition" value="DealDamage(1d6,Necrotic,Magical)" />
         <field name="TargetConditions" type="StringTableFieldDefinition" value="Character() and Enemy()" />
         <field name="PreviewCursor" type="EnumerationTableFieldDefinition" value="Cast" enumeration_type_name="CursorMode" version="1" />
@@ -65,6 +65,26 @@
         <field name="CastSound" type="StringTableFieldDefinition" value="CrSpell_Cast_OverwhelmingGrief" />
         <field name="TargetSound" type="StringTableFieldDefinition" value="CrSpell_Impact_OverwhelmingGrief" />
         <field name="Level" type="IntegerTableFieldDefinition" value="4" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="4f9fa513-430b-45a7-9471-c14ef54e41f5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharShadowstep" />
+        <field name="Using" type="BaseClassTableFieldDefinition" value="5020d2cb-51f0-4d9f-8ab0-5e62b0368461" />
+        <field name="TargetConditions" type="StringTableFieldDefinition" value="CanStand('') and not HasObscuredStateAtPosition(ObscuredState.Clear, context.TargetPosition)" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h81286423g914fg0b6ag7805g5059119edc1d" version="1" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hd8b5ffcfg9779g834dg92b5g819b65d176b0" version="1" />
+        <field name="UseCosts" type="StringTableFieldDefinition" value="ActionPoint:1" />
+        <field name="SpellFlags" type="EnumerationListTableFieldDefinition" value="IsSpell;HasHighGroundRangeExtension;RangeIgnoreVerticalThreshold;Invisible" enumeration_type_name="SpellFlagList" version="1" />
+        <field name="Cooldown" type="EnumerationTableFieldDefinition" value="OncePerTurn" enumeration_type_name="CooldownType" version="1" />
+        <field name="SpellProperties" type="StringTableFieldDefinition" value="GROUND:TeleportSource()" />
+        <field name="RequirementConditions" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="RequirementEvents" type="EnumerationListTableFieldDefinition" clear_inherited_value="true" value="" enumeration_type_name="StatusEvent" version="1" />
+        <field name="TooltipStatusApply" type="StringTableFieldDefinition" clear_inherited_value="true" value="" />
+        <field name="SpellAnimation" type="CastAnimationsTableFieldDefinition" value="dd86aa43-8189-4d9f-9a5c-454b5fe4a197,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;cc5b0caf-3ed1-4711-a50d-11dc3f1fdc6a,,;,,;1715b877-4512-472e-9bd0-fd568a112e90,,;,,;,," />
+        <field name="PrepareEffect" type="GuidObjectTableFieldDefinition" value="7121a488-7c9a-4ba1-a585-f79aaa77e97c" />
+        <field name="CastEffect" type="GuidObjectTableFieldDefinition" value="71859b27-bdda-44c3-8c65-7f142a1a2f60" />
       </fields>
     </stat_object>
   </stat_objects>

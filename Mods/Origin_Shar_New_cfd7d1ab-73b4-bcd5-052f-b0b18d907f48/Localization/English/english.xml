@@ -24,16 +24,16 @@
   <content contentuid="h7ae091c8g6343g8ec0g4706gb194e9390ab2" version="1">Divinely wrought, this helmet exudes otherworldly power. (Currently only visible on normal BT1)</content>
   <content contentuid="h6798f321g43b6g3140g2be9g579934441f21" version="1">Shar's Robe</content>
   <content contentuid="h18e4b3d1ge2bdgfa1fg5131g810a324428ab" version="1">This revealing dress is much more protective than it should be. (Currently only visible on normal BT1)</content>
-  <content contentuid="h56a4409agd564gb158gedf0gefdba7c9b40e" version="1">Veil of Shadows</content>
-  <content contentuid="hebe3551fg2ab0gc8d2g1b25g03a7164512b5" version="1">&lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; also grants a +[1] bonus to all Saving Throws.</content>
+  <content contentuid="h56a4409agd564gb158gedf0gefdba7c9b40e" version="2">Shadow's Embrace</content>
+  <content contentuid="hebe3551fg2ab0gc8d2g1b25g03a7164512b5" version="2">Veil of Shadows also grants a +[1] bonus to all Saving Throws.</content>
   <content contentuid="h84d105abg9f40g43dag4cd2g7dc961fc7c25" version="1">Veil of Shadows</content>
   <content contentuid="h3cb756d9g6fbbge6ffg7202gadbc522ac703" version="2">Encase yourself with shadow, increasing your &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt; by 2.</content>
   <content contentuid="h3f84895cga72egb24agbbc1ge9feecd3cbe7" version="1">%%% Shar - Shield of Faith</content>
   <content contentuid="ha6b1d1a0g5ff5gc374g72d1g13ad69ed57ba" version="1">%%% Shar- Shield of Faith</content>
-  <content contentuid="h21642043g725dg2a24gf4afg5fb9621b4c74" version="2">Shadow Retribution</content>
+  <content contentuid="h21642043g725dg2a24gf4afg5fb9621b4c74" version="3">Umbral Retribution</content>
   <content contentuid="h3a6b247fgf8ffg2ce3g3541gacb003426b68" version="2">While Veil of Shadows is active, reduce all incoming damage by [1] and reflect damage received back at the attacker, who takes [2].</content>
   <content contentuid="hf46f9e94g9902g3542gff5cge627df289d42" version="2">Umbral Retribution</content>
-  <content contentuid="hf2c670c5g76bfg2c82g43e8gaad83e13d033" version="1">&lt;LSTag Type="Status" Tooltip="SHIELD_OF_FAITH"&gt;Shield of Faith&lt;/LSTag&gt; reduces all damage by [1] and deals [2] back at the attacker.</content>
+  <content contentuid="hf2c670c5g76bfg2c82g43e8gaad83e13d033" version="2">Veil of Shadows reduces all damage by [1] and deals [2] back at the attacker.</content>
   <content contentuid="hfcfd7f84gc721g8b8bg046eg88609a03cb7f" version="1">The wearer cannot be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt;.</content>
   <content contentuid="h6cedcafdg6b27geb65g5e70g8e6eba5ba90e" version="1">Barrier of Darkness</content>
   <content contentuid="h4feebd8ag45abgcb9cg09c1g2646bc6e29f9" version="1">You have an &lt;LSTag Tooltip="Advantage"&gt;Advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; while in darkness or dim light.</content>
@@ -45,4 +45,18 @@
   <content contentuid="h6ff91284g5ebcgb58ag1a4bga84ed168c88c" version="1">You strike at their foe's brain with pure malice, inflicting &lt;LSTag Type="Status" Tooltip="SHA_JUSTICIAR_CALLOFTHEDARK"&gt;Call of the Dark Lady&lt;/LSTag&gt;.</content>
   <content contentuid="h101a28fdg030fg34c8g0740gef77b22257b7" version="1">The most common face in Faerûn, humans are known for their tenacity, creativity, and endless capacity for growth.</content>
   <content contentuid="h36a5f501g166bg91c3g5facg57c6028480c4" version="1">Human</content>
+  <content contentuid="h8a9f2adfg9677g4d5dgc8dbg92b30753cadf" version="2">Veil of Shadows</content>
+  <content contentuid="h1cd3cc74ga15dg1d49g9b5cg30f73a7ab9cc" version="1">Receives +2 bonus to &lt;LSTag Tooltip="ArmourClass"&gt;Armour Class&lt;/LSTag&gt;.</content>
+  <content contentuid="h559b6aa2g7e89gfb47gd119g8b06a95fb0d6" version="1">%%% Shar Protection Technical</content>
+  <content contentuid="h2ed5551agf9a5g49d9gfe7dg4834bb3c69e0" version="1">You can command the shadows to collect at a mere thought, blinding your enemies and obscuring the ground.</content>
+  <content contentuid="hefd05baegbafbg97a5g4e71g6136e74a8063" version="1">Call of the Dark Lady</content>
+  <content contentuid="hbbeb4dddg30d9g3f24g6a10g3f0f9c18f505" version="2">When it starts its turn in a Lightly or Heavily Obscured area, the affected entity takes [1]. Attacks made by Shar while affected by her &lt;LSTag Type="Status" Tooltip="SHA_SHAR_UMBRAL_FORM"&gt;Umbral Form&lt;/LSTag&gt; deal an additional [2] to the entity.</content>
+  <content contentuid="h38fb3fd8g66dbg2001g96b1g323a3c8051ad" version="1">Umbral Form</content>
+  <content contentuid="h9bcf0e1cg1d2agf8bcg1b84g2248039079c9" version="2">On a hit, Shar deals an additional [1]. It is &lt;LSTag Tooltip="Immune"&gt;Immune&lt;/LSTag&gt; to non-magical damage, and can make an additional melee attack each turn. She cannot cast spells while maintaining this form. </content>
+  <content contentuid="h5e5b94dcg617fgc7eag7f3ag5acb010d9346" version="1">Subsume Shadow</content>
+  <content contentuid="h0ec78477gd641g2a1dg4065g92647934af13" version="1">Shar assumes her &lt;LSTag Type="Status" Tooltip="SHA_SHAR_UMBRAL_FORM"&gt;Umbral Form&lt;/LSTag&gt;.</content>
+  <content contentuid="hbc7be8ccg3273gd6fbgd26bg5ff5257fe70f" version="1">Umbral Form</content>
+  <content contentuid="h81286423g914fg0b6ag7805g5059119edc1d" version="1">Shadow Teleportation</content>
+  <content contentuid="hd8b5ffcfg9779g834dg92b5g819b65d176b0" version="1">Teleport to an unoccupied, obscured spot.</content>
+  <content contentuid="h701c8855g464egb547g6fa9g53245d8aaa06" version="1">Sleep</content>
 </contentList>

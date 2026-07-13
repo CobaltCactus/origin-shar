@@ -20,7 +20,7 @@
                     <attribute id="LockClass" type="bool" value="false"/>
                     <attribute id="LockRace" type="bool" value="true"/>
                     <attribute id="Name" type="FixedString" value="Shar"/>
-                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief"/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows;SharGrief;SharUmbralForm;SharSleep"/>
                     <attribute id="RaceUUID" type="guid" value="0eb594cb-8820-4be6-a58d-8be7a1a98fba"/>
                     <attribute id="SubClassUUID" type="guid" value="f013d01b-3310-43f7-81bf-a51130442b5e"/>
                     <attribute id="UUID" type="guid" value="3b0e44b6-e789-48a0-a05e-602cd576383d"/>
@@ -29,9 +29,6 @@
                     <children>
                         <node id="AppearanceTags">
                             <attribute id="Object" type="guid" value="486e4a27-e6f9-40a5-9dd1-108a1d0f60eb"/>
-                        </node>
-                        <node id="AppearanceTags">
-                            <attribute id="Object" type="guid" value="0d1d64b8-70d6-4702-8643-be348b0f3fc6"/>
                         </node>
                         <node id="ReallyTags">
                             <attribute id="Object" type="guid" value="8e288154-e7ca-4277-b2df-e61639b1cce8"/>

@@ -34,7 +34,7 @@
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="hfc59190bg7203g5c77g2ed8g128e588c08cd" version="3" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('SHIELD_OF_FAITH')" />
+        <field name="Conditions" type="StringTableFieldDefinition" value="StatusId('SHIELD_OF_FAITH_SHAR');" />
         <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="ApplyStatus(MAG_SHAR_ROBE_SHAR_RESISTANCE, 100, -1)" />
         <field name="Icon" type="StringTableFieldDefinition" value="PassiveFeature_Generic_Darkness" />
       </fields>
@@ -53,11 +53,11 @@
       <fields>
         <field name="UUID" type="IdTableFieldDefinition" value="aec44951-2848-41ea-a5ed-acfbf2f8330a" />
         <field name="Name" type="NameTableFieldDefinition" value="MAG_Shar_Armor_Protection_Passive" />
-        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21642043g725dg2a24gf4afg5fb9621b4c74" version="2" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h21642043g725dg2a24gf4afg5fb9621b4c74" version="3" />
         <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h3a6b247fgf8ffg2ce3g3541gacb003426b68" version="2" />
         <field name="DescriptionParams" type="StringTableFieldDefinition" value="2;DealDamage(1d4, Necrotic)" />
         <field name="StatsFunctorContext" type="EnumerationListTableFieldDefinition" value="OnDamaged;OnStatusApplied" enumeration_type_name="StatsFunctorContext" version="1" />
-        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnDamaged) and HasStatus('SHIELD_OF_FAITH') and not Self()):DealDamage(SELF, 1d4, Necrotic,Magical);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('SHIELD_OF_FAITH')):ApplyStatus(MAG_DARK_JUSTICIAR_ARMOR_SHAR_PROTECTION, 100, -1);IF(context.HasContextFlag(StatsFunctorContext.OnDamaged) and HasStatus('SHIELD_OF_FAITH') and not Self()):ApplyStatus(MAG_DARK_JUSTICIAR_ARMOR_SHAR_PROTECTION_DAMAGE, 100, 0);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('SHAR_SHIELD_OF_FAITH_OWNER')):ApplyStatus(MAG_DARK_JUSTICIAR_ARMOR_SHAR_PROTECTION_DAMAGE, 100, 0)" />
+        <field name="StatsFunctors" type="FunctorsTableFieldDefinition" value="IF(context.HasContextFlag(StatsFunctorContext.OnDamaged) and HasStatus('SHIELD_OF_FAITH_SHAR') and not Self()):DealDamage(SELF, 1d4, Necrotic,Magical);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('SHIELD_OF_FAITH_SHAR')):ApplyStatus(MAG_SHAR_ARMOR_SHAR_PROTECTION, 100, -1);IF(context.HasContextFlag(StatsFunctorContext.OnDamaged) and HasStatus('SHIELD_OF_FAITH_SHAR') and not Self()):ApplyStatus(MAG_SHAR_ARMOR_SHAR_PROTECTION_DAMAGE, 100, 0);IF(context.HasContextFlag(StatsFunctorContext.OnStatusApplied) and StatusId('SHAR_SHIELD_OF_FAITH_OWNER')):ApplyStatus(MAG_SHAR_ARMOR_SHAR_PROTECTION_DAMAGE, 100, 0)" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -66,6 +66,7 @@
         <field name="Name" type="NameTableFieldDefinition" value="SharDarkness" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hc6fce1cagcceag955bg8a56gec06556ee74f" version="2" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SharDarkness);" />
+        <field name="Description" type="TranslatedStringTableFieldDefinition" handle="h2ed5551agf9a5g49d9gfe7dg4834bb3c69e0" version="1" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
@@ -74,6 +75,22 @@
         <field name="Name" type="NameTableFieldDefinition" value="SharGrief" />
         <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h32b4ed38gd9b7g1c17ge5e8g909c9ae6460c" version="1" />
         <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Target_SharGrief);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="e876409f-8c01-4c60-8dab-3f318373ffd5" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharUmbralForm" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hbc7be8ccg3273gd6fbgd26bg5ff5257fe70f" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(Shout_SHA_Shar_UmbralFury);" />
+      </fields>
+    </stat_object>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="UUID" type="IdTableFieldDefinition" value="a0df23f8-dca3-4f69-8de5-fe238c410ab6" />
+        <field name="Name" type="NameTableFieldDefinition" value="SharSleep" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="h701c8855g464egb547g6fa9g53245d8aaa06" version="1" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="UnlockSpell(SHA_Justiciar_Sleep);" />
       </fields>
     </stat_object>
   </stat_objects>

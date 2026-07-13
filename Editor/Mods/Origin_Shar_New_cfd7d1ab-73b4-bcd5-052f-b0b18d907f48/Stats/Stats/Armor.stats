@@ -47,8 +47,9 @@
         <field name="Name" type="NameTableFieldDefinition" value="ARM_Boots_Shar_A" />
         <field name="Using" type="BaseClassTableFieldDefinition" value="c6d249ce-32d3-4c33-941c-298d686bb1f1" />
         <field name="RootTemplate" type="RootTemplateTableFieldDefinition" value="407b87bf-dddf-4f52-a76b-6328aa67d4d4" />
-        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Dexterity);UnlockSpell(Target_MAG_Shadow_Shadowstep)" />
+        <field name="Boosts" type="StringTableFieldDefinition" value="RollBonus(SavingThrow, 1, Dexterity);UnlockSpell(Target_SharShadowstep)" />
         <field name="Rarity" type="EnumerationTableFieldDefinition" value="Legendary" enumeration_type_name="Rarity" version="1" />
+        <field name="PassivesOnEquip" type="StringTableFieldDefinition" value="MAG_Shar_Armor_Protection_Passive;" />
       </fields>
     </stat_object>
     <stat_object is_substat="false">
